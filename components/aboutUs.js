@@ -7,11 +7,11 @@ export default function AboutUs() {
         <div className="flex flex-col justify-center items-start relative">
             <h1 className='font-butlerregular text-5xl text-original'>ABOUT US</h1>
 
-            <div>
-                <hr />
-                <p>Vino je među pićima najkorisnije, među lijekovima najukusnije, a od hrane najugodnije.</p>
-                <p>Plutarch von Charona</p>
-                <hr />
+            <div className='my-10'>
+                <hr className='bg-original mb-3 h-0.5' />
+                <p className='mb-2 text-original text-base italic'>Vino je među pićima najkorisnije, među lijekovima najukusnije, a od hrane najugodnije.</p>
+                <p className='text-original text-base italic'>Plutarch von Charona</p>
+                <hr className='bg-original mt-3 h-0.5' />
             </div>
 
             <div className='text-lg'>

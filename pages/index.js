@@ -13,6 +13,7 @@ export default function Home() {
     <Swiper
       modules={[EffectFade, Mousewheel, Pagination, Navigation]} 
       effect="fade"
+      speed={800}
       direction="vertical"
       mousewheel={true}
       navigation

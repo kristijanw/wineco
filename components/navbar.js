@@ -26,12 +26,12 @@ export default function Navbar() {
       <div>
           <div className="header z-50 fixed right-0 left-0 max-w-7xl m-auto">
               <div className="flex items-center justify-between z-50 relative py-10">
-                <div className="group z-50 relative w-8 h-6 cursor-pointer flex-col justify-between items-center flex" onClick={openHambClick}>
-                    <span className={`h-1 w-full bg-original rounded-lg cursor-pointer transform transition duration-300 ease-in-out 
+                <div className="group z-50 relative w-8 h-6 flex-col justify-between items-center flex" onClick={openHambClick}>
+                    <span className={`h-1 w-full bg-original rounded-lg transform transition duration-300 ease-in-out 
                     ${open ? "rotate-45 translate-y-2.5 bg-white" : ""}`} />
-                    <span className={`h-1 w-full bg-original rounded-lg cursor-pointer transition-all duration-300 ease-in-out 
+                    <span className={`h-1 w-full bg-original rounded-lg transition-all duration-300 ease-in-out 
                     ${open ? "w-0" : "w-full"}`} />
-                    <span className={`h-1 w-full bg-original rounded-lg cursor-pointer transform transition duration-300 ease-in-out 
+                    <span className={`h-1 w-full bg-original rounded-lg transform transition duration-300 ease-in-out 
                     ${open ? "-rotate-45 -translate-y-2.5 bg-white" : ""}`} />
                 </div>
 
