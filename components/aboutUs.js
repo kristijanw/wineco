@@ -7,7 +7,14 @@ export default function AboutUs() {
         <div className="flex flex-col justify-center items-start relative">
             <h1 className='font-butlerregular text-5xl text-original'>ABOUT US</h1>
 
-            <div className='font-butlerregular text-lg'>
+            <div>
+                <hr />
+                <p>Vino je među pićima najkorisnije, među lijekovima najukusnije, a od hrane najugodnije.</p>
+                <p>Plutarch von Charona</p>
+                <hr />
+            </div>
+
+            <div className='text-lg'>
                 <p className='mb-3'>
                     <strong>Wine&Co</strong> specijalizirana je veleprodaja vina, žestokih pića i popratnog asortimana.
                     Naši kupci su ponajbolji restorani, hoteli ali i sve više privatni kupci.
@@ -19,6 +26,8 @@ export default function AboutUs() {
 
                 <p className='mb-3'>Hvala na povjerenju i živjeli!</p>
             </div>
+
+            <button className='border-original border bg-transparent py-2 px-3 text-original rounded-sm'>READ MORE</button>
         </div>
 
         <div className="">
