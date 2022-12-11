@@ -7,6 +7,7 @@ module.exports = {
   theme: {
     fontFamily: {
       butlerregular: ["butler-regular", "sans-serif"],
+      avenirmedium: ["avenir-medium", "sans-serif"],
     },
     extend: {
       colors: {

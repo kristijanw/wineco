@@ -7,6 +7,11 @@
   src: url("../public/fonts/butler/Butler_Regular_Stencil.otf");
 }
 
+@font-face {
+  font-family: "avenir-medium";
+  src: url("../public/fonts/avenir/Metropolis-Medium.otf");
+}
+
 html,
 body {
   padding: 0;

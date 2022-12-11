@@ -59,25 +59,25 @@ function FullScreenMenu({open, setOpen}) {
       transition-transform duration-500 ease-in-out filter`}>
          
           <div className="flex flex-col justify-center items-center mt-48">
-            <Link href='/' className="font-butlerregular text-white text-4xl my-4">
+            <Link href='/' className="font-butlerregular text-white text-4xl my-4 border border-transparent p-3 hover:border-white">
               HOMEPAGE
             </Link>
-            <Link href='/' className="font-butlerregular text-white text-4xl my-4">
+            <Link href='/' className="font-butlerregular text-white text-4xl my-4 border border-transparent p-3 hover:border-white">
               ABOUT US
             </Link>
-            <Link href='/' className="font-butlerregular text-white text-4xl my-4">
+            <Link href='/' className="font-butlerregular text-white text-4xl my-4 border border-transparent p-3 hover:border-white">
               WINE LIST
             </Link>
-            <Link href='/' className="font-butlerregular text-white text-4xl my-4">
+            <Link href='/' className="font-butlerregular text-white text-4xl my-4 border border-transparent p-3 hover:border-white">
               WINE SHOP
             </Link>
-            <Link href='/' className="font-butlerregular text-white text-4xl my-4">
+            <Link href='/' className="font-butlerregular text-white text-4xl my-4 border border-transparent p-3 hover:border-white">
               OUR BRANDS
             </Link>
-            <Link href='/' className="font-butlerregular text-white text-4xl my-4">
+            <Link href='/' className="font-butlerregular text-white text-4xl my-4 border border-transparent p-3 hover:border-white">
               BLOG
             </Link>
-            <Link href='/' className="font-butlerregular text-white text-4xl my-4">
+            <Link href='/' className="font-butlerregular text-white text-4xl my-4 border border-transparent p-3 hover:border-white">
               CONTACT US
             </Link>
           </div>  
